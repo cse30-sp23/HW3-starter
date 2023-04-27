@@ -48,7 +48,7 @@ int main(int argc, char **argv)
      the target columns as described in the writeup */
 
     /* TODO: use this line to print out the statistics when -s flag is set */
-    printf("Number of lines: %d\n Longest field: %d characters\n", linecnt, lngst_fld);
+    printf("Number of lines: %d\nLongest field: %d characters\n", linecnt, lngst_fld);
 
     /* TODO: free the memory for arrays allocated with malloc */
 }
