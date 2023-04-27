@@ -16,7 +16,7 @@ OBJS = reader.o
 CC = gcc
 DEBUG = -g
 WARN = -Wall -Wextra
-CFLAGS = -I. -std=gnu11 $(DEBUG) $(WARN) -O3
+CFLAGS = -I. -std=gnu11 $(DEBUG) $(WARN) -O0
 LIBS = 
 
 .PHONY: clean
