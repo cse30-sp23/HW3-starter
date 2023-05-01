@@ -15,7 +15,7 @@ EXE = reader
 OBJS = reader.o
 CC = gcc
 DEBUG = -g
-WARN = -Wall -Wextra
+WARN = -Wall -Wextra -Wformat-security
 CFLAGS = -I. -std=gnu11 $(DEBUG) $(WARN) -O0
 LIBS = 
 
